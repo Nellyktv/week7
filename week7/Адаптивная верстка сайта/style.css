@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Cormorant+Upright:wght@300&family=Jost:wght@400;800&family=Lato:ital@1&family=Playfair+Display:ital,wght@0,400;0,800;1,400&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Cormorant Upright', sans-serif;
+    color: #FFFFFF;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(5, 25%);
+}
+
+.gericht {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    grid-column: 2/3;
+}
+
+
+.menu {
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 175%;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.log_in {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    grid-column: 3/5;
+}
+
+.firstsec {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+.container {
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+h1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+.chase {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1.4em;
+    line-height: 130%;
+}
+
+.sit {
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+
+
+.button {
+    background: #DCCA87;
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.1em;
+    font-weight: bolder;
+    align-self: center;
+    justify-self: center;
+}
+
+.eggs {
+    margin-left: 5%;
+    grid-column: 3;
+    grid-row: 1;
+    height: 50vh;
+    max-height: 50vh;
+    align-self: center;
+}
+
+h2 {
+    color: #DCCA87;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4em;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum'on, 'lnum'on;
+}
+
+.cutcut {
+    padding-top: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+.about {
+    grid-column: 2;
+    text-align: center;
+}
+
+.cut {
+    grid-column: 3;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.history {
+    grid-column: 4;
+    justify-self: center;
+    align-self: start;
+    text-align: center;
+}
+
+.spisok {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background: rgb(24, 23, 23);
+}
+
+.block {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+h2.book {
+    align-items: start;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.reserve {
+    align-self: start;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.inputs {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.booknow {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.list {
+    box-sizing: border-box;
+    border: 1px solid #F5EFDB;
+    width: 15vw;
+    height: 4vh;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: left;
+    left: 0px;
+    top: 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    justify-items: center;
+}
+
+.ger {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #DCCA87;
+    grid-row: 2;
+    grid-column: 2;
+    align-self: start;
+}
+
+.text {
+
+    grid-row: 2;
+    grid-column: 2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 175%;
+    align-self: end;
+}
+
+.con_us {
+    grid-row: 2;
+}
+
+.contacts {
+    font-weight: 400;
+    font-size: 1.7em;
+    line-height: 130%;
+}
+
+.c {
+    grid-row: 3;
+    grid-column: 2;
+    align-self: end;
+}
+
+.workhrs {
+    justify-items: center;
+    align-items: center;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.maincontainer {
+    max-width: 1500px;
+}
+
+@media screen and  (max-width: 768px) {
+
+    .maincontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        max-width: 768px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .gericht {}
+
+    .logo {
+        display: none;
+    }
+
+    .nav {
+        font-size: 70%;
+
+    }
+
+    h1 {
+        font-size: 1.5em;
+
+    }
+
+    .menu {}
+
+    .login {
+
+        font-size: 70%;
+    }
+
+    .log_in {}
+
+    .firstsec {}
+
+    .container {}
+
+    .chase {
+        font-size: 1.0em
+    }
+
+    .sit {
+        font-size: 1.0em
+    }
+
+    .button {
+        min-width: 20vw;
+        max-width: 50vw;
+        max-height: 4vh;
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .eggs {
+        min-height: 200px;
+        max-height: 30%;
+    }
+
+    .cutcut {}
+
+    .about {}
+
+    .cut {
+        min-height: 200px;
+        max-height: 70%;
+    }
+
+    .history {}
+
+    .spisok {
+        
+    }
+
+    .block {}
+
+    .reserve {}
+
+    .book {}
+
+    .inputs {}
+
+    .list {
+        max-width: 100vw;
+        max-height: 3vh;
+    }
+
+    .booknow {}
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .con_us {
+        font-size: 0.8em;
+    }
+
+    .contacts {
+        font-size: 1em;
+    }
+
+    .ger {
+        display: none;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .c {
+        display: none;
+    }
+
+    .workhrs {
+        display: none;
+    }
+}
